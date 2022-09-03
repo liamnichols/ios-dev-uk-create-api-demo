@@ -1,0 +1,11 @@
+# All options can be found here:
+# https://github.com/CreateAPI/CreateAPI/blob/main/Docs/ConfigOptions.md
+
+# Required. Used for defining the library/target name in the generated Package
+module: DemoAPI
+
+# Customise the generated output to improve usability of our API
+paths:
+  style: operations
+entities:
+  includeIdentifiableConformance: true

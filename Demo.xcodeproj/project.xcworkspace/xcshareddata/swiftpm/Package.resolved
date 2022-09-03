@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Get",
+        "repositoryURL": "https://github.com/kean/get",
+        "state": {
+          "branch": null,
+          "revision": "db5248ce985c703c5ea0030b7c4d3f908db304c9",
+          "version": "1.0.2"
+        }
+      },
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/nuke",
+        "state": {
+          "branch": null,
+          "revision": "ed09ce3d28273804d127cdac42841a52f568076d",
+          "version": "11.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,17 +1,17 @@
-//
-//  DemoApp.swift
-//  Demo
-//
-//  Created by Liam Nichols on 03/09/2022.
-//
-
 import SwiftUI
 
 @main
 struct DemoApp: App {
+    init() {
+        UIBarButtonItem.appearance().applyMise()
+        UINavigationBar.appearance().applyMise()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                CollectionList()
+            }
         }
     }
 }
