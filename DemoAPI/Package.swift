@@ -5,13 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "DemoAPI",
-    platforms: [
-        .iOS(.v13),
-        .macCatalyst(.v13),
-        .macOS(.v10_15),
-        .watchOS(.v6),
-        .tvOS(.v13)
-    ],
+    platforms: [.iOS(.v13), .macCatalyst(.v13), .macOS(.v10_15), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(name: "DemoAPI", targets: ["DemoAPI"]),
     ],
